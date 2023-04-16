@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <News/>
+    <News newsPerPage={5}/>
     </>
   );
 }
